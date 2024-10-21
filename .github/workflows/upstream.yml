@@ -23,6 +23,8 @@ on:
   watch:
     types: started
   repository_dispatch:
+permissions:
+  contents: write
 
 jobs:
   merge:
